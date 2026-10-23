@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的个人主页</title>
+ 
+<style>
+  body {
+    font-family: Arial, "Microsoft YaHei", sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    margin: 0;
+    line-height: 1.8;
+  }
+
+  header {
+    background: #253858;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  header h1 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+
+  .button {
+    display: inline-block;
+    background: white;
+    color: #253858;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+
+  .button:hover {
+    background: #e4ecf8;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+
+  section {
+    background: white;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  h2 {
+    color: #253858;
+    margin-top: 0;
+  }
+
+  .project-card {
+    background: #f8faff;
+    border: 1px solid #dce5f5;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 24px;
+    text-align: left;
+  }
+
+  .project-card h3 {
+    color: #253858;
+    margin-top: 0;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #e4ecf8;
+    color: #253858;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 6px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+  }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 28px;
+    }
+
+    main {
+      padding: 0 12px;
+    }
+
+    section {
+      padding: 18px;
+    }
+  }
+</style>
+
+</head>
+<body>
+  <header>
+    <h1>你好，我是突飞</h1>
+    <p>我正在学习网页开发，希望用代码创造有趣的作品。</p>
+  <a href="#works" class="button">查看我的作品</a></header>
+
+  <main>
+    <section id="works">
+      <h2>关于我</h2>
+      <p>我正在学习编程，并尝试制作自己的第一个网站。</p>
+    </section>
+
+       <section id="works">
+      <h2>我的作品</h2>
+      <p>这里记录我的学习成果和个人项目。</p>
+
+      <div class="project-card">
+        <h3>项目一：我的个人主页</h3>
+        <p>这是我从零开始学习 HTML 和 CSS 制作的第一个网站。</p>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>联系我</h2>
+      <p>欢迎与我交流，一起学习和成长。</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 我的个人主页
+  </footer>
+</body>
+</html>
